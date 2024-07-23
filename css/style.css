@@ -11,7 +11,7 @@
 
 .gatinho video {
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .gatinho {
@@ -19,7 +19,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 75%;
     text-align: center;
     }
 
@@ -40,6 +40,24 @@
 
 @media (max-width: 480px) {
     .fundo {
-        margin: 12% auto;
+        margin: 8% auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .fundo {
+        margin: 8% auto;
+    }
+
+    .gatinho {
+        width: 85%;
+    }
+
+    .gatinho video {
+        width: 100%;
+    }
+
+    body {
+        overflow: visible;
     }
 }
