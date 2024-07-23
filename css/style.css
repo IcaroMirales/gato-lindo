@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Shortcake;
+    src: url(../fonts/Shortcake.otf);
+    src: url(../fonts/Shortcake.ttf);
+}
+
+.gatinho h2 {
+    font-family: Shortcake;
+    color: #ccc;
+}
+
+.gatinho video {
+    border-radius: 10px;
+    width: 80%;
+}
+
+.gatinho {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    }
+
+
+.fundo {
+    margin: 3% auto;
+    background-color: #1e2121;
+    width: 90%;
+    height: 90vh;
+}
+
+@media (max-width: 780px) {
+    .fundo {
+        margin: 8% auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .fundo {
+        margin: 12% auto;
+    }
+}
